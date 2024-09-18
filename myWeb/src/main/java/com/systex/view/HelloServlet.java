@@ -31,10 +31,11 @@ public class HelloServlet extends HttpServlet {
 		response.setContentType("text/html;");
 		response.setCharacterEncoding("UTF-8");
 		PrintWriter out = response.getWriter();
+		String croot = request.getContextPath();
 		out.println("<html>");
 		out.println("<head>");
 		out.println("<title>HelloServlet</title>");
-		out.println("<link href=\"style/myStyle.css\" rel=\"stylesheet\"/>");
+		out.println("<link href=\"" + croot + "/style/myStyle.css\" rel=\"stylesheet\"/>");
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<h2>Hello Servlet</h2>");
@@ -49,6 +50,10 @@ public class HelloServlet extends HttpServlet {
 			out.println("</tr>");
 		}
 		out.println("</table>");
+		out.println("<a href='../.'>");
+		out.println("<img src='" + croot + "/image/迅龍.png' />");
+		out.println("</a>");
+		out.println("<a href='" + croot + "/.'>Go Home</a>");
 		out.println("</body>");
 		out.println("</html>");
 		out.close();

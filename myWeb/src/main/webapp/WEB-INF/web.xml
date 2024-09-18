@@ -17,6 +17,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/hello.aspx</url-pattern>
+    <url-pattern>/admin/hello.aspx</url-pattern>
   </servlet-mapping>
 </web-app>
