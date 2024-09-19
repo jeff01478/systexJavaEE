@@ -12,6 +12,6 @@
 <body>
 	<h1>Welcome To My Java EE Playground!!</h1>
 	<p>Current Time is : <%= SimpleDateFormat.getInstance().format(new Date()) %></p>
-	<p><a href="admin/hello.aspx">Hello Servlet</a>
+	<p><a href="admin/hello.aspx">Hello GOOD</a>
 </body>
 </html>
