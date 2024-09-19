@@ -19,4 +19,15 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/admin/hello.aspx</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DumpServlet</display-name>
+    <servlet-name>DumpServlet</servlet-name>
+    <servlet-class>com.systex.view.DumpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DumpServlet</servlet-name>
+    <url-pattern>/DumpServlet</url-pattern>
+    <url-pattern>/admin/dump.view</url-pattern>
+  </servlet-mapping>
 </web-app>
