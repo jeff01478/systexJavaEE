@@ -53,4 +53,17 @@
     <dispatcher>INCLUDE</dispatcher>
     <dispatcher>ERROR</dispatcher>
   </filter-mapping>
+  <session-config>
+    <session-timeout>10</session-timeout>
+  </session-config>
+  <servlet>
+    <description></description>
+    <display-name>CreateCustomer</display-name>
+    <servlet-name>CreateCustomer</servlet-name>
+    <servlet-class>com.systex.controller.CreateCustomer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateCustomer</servlet-name>
+    <url-pattern>/customer/CreateCustomer.do</url-pattern>
+  </servlet-mapping>
 </web-app>

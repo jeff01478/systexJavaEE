@@ -16,6 +16,7 @@
 		<a href="admin/hello.aspx">Hello GOOD</a>
 		<a href="admin/dump.view">Dump Servlat</a>
 		<a href="customer/createCustomer.jsp">新增顧客</a>
+		<a href="customer/createCustomer1.jsp">測試交談時期</a>
 	</p>
 </body>
 </html>

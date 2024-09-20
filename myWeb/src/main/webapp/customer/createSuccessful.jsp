@@ -22,5 +22,6 @@
 	</table>
 	<br/>
 	<a href=../>Go Home</a>
+	<% session.invalidate(); // 建立完成後銷毀Session %>
 </body>
 </html>
