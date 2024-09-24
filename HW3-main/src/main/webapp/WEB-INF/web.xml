@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>result</display-name>
+    <servlet-name>result</servlet-name>
+    <servlet-class>com.systex.view.result</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>result</servlet-name>
+    <url-pattern>/result</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>lotteryController</display-name>
+    <servlet-name>lotteryController</servlet-name>
+    <servlet-class>com.systex.controller.lotteryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lotteryController</servlet-name>
+    <url-pattern>/lottery/lotteryController.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GameController</display-name>
+    <servlet-name>GameController</servlet-name>
+    <servlet-class>com.systex.controller.GameController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GameController</servlet-name>
+    <url-pattern>/game/gameController.do</url-pattern>
+  </servlet-mapping>
+</web-app>
